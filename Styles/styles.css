@@ -22,6 +22,8 @@ body {
   box-sizing: inherit;
 }
 
+/* Typography */
+
 p {
   margin-bottom: 1.25em;
 }
@@ -61,4 +63,28 @@ h5 {
 small,
 .text_small {
   font-size: 0.8em;
+}
+
+/* Nav */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+}
+.branding {
+  padding: 2%;
+  margin-left: 5em;
+}
+.nav {
+  width: 70%;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-item {
+
 }
