@@ -130,9 +130,9 @@ button:hover {
   color: black;
 }
 
-/* Content 2 Ramen Specials */
+/* Content 1 Ramen Specials */
 
-.ramen-specials {
+.content-1 {
   background: linear-gradient(#eacda3, #d6ae7b);
   width: 100%;
   min-height: 80vh;
@@ -140,7 +140,25 @@ button:hover {
   background-repeat: no-repeat;
 }
 
-.specials-title{
+.content-1-title {
   text-align: center;
-  padding: 5%;
+  padding: 3%;
+}
+
+.content-1-img-group {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+}
+.content-1-img {
+  padding: 3%;
+  border-radius: 20px;
+  margin: 0 1em;
+}
+
+
+figcaption {
+  text-align: center;
+  font-size: 20px;
 }
