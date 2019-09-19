@@ -70,21 +70,59 @@ small,
 .header {
   display: flex;
   flex-direction: row;
-  background: white;
   align-items: center;
+}
+.wrapper {
+  background-image: url(/Assets/Img/ramen.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .branding {
   padding: 2%;
   margin-left: 5em;
+  width: 13%;
 }
+
 .nav {
   width: 70%;
 }
 .nav-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-.nav-item {
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
 
+.nav-item a:hover {
+  color: grey;
+}
+
+button {
+  font-size: 30px;
+  margin-top: 3.7px;
+  border: none;
+  background: black;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+hr {
+  height: 0.25rem;
+  width: 25%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: 0.3s ease-in-out;
 }
