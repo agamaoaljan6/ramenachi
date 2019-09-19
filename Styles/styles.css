@@ -104,9 +104,21 @@ small,
   color: grey;
 }
 
+.nav-text {
+  text-align: center;
+  margin-top: 5em;
+  padding: 4%;
+  color: white;
+}
+
+.nav-text span {
+  color: crimson;
+}
+
 button {
   font-size: 30px;
   margin-top: 3.7px;
+  border-radius: 30px;
   border: none;
   background: black;
   color: white;
@@ -118,11 +130,17 @@ button:hover {
   color: black;
 }
 
-hr {
-  height: 0.25rem;
-  width: 25%;
-  margin: 0;
-  background: tomato;
-  border: none;
-  transition: 0.3s ease-in-out;
+/* Content 2 Ramen Specials */
+
+.ramen-specials {
+  background: linear-gradient(#eacda3, #d6ae7b);
+  width: 100%;
+  min-height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.specials-title{
+  text-align: center;
+  padding: 5%;
 }
